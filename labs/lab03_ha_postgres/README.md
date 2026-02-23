@@ -109,9 +109,7 @@ docker compose up -d --build
 
 ```
 
-
-
-!\[](./screenshots/1.png)
+![1](https://github.com/user-attachments/assets/484551f1-3fc2-4193-9713-933d56032e48)
 
 
 
@@ -126,8 +124,7 @@ docker compose ps
 ```
 
 
-
-!\[](./labs/lab03_ha_postgres/screenshots/screenshots/2.png)
+![2](https://github.com/user-attachments/assets/94b6b7b0-4329-4760-9bdf-407ce380dfc2)
 
 
 
@@ -168,8 +165,8 @@ INSERT INTO test\_replication VALUES (2, 'should fail on replica');
 ```
 
 
+![3](https://github.com/user-attachments/assets/b5dfcbd2-2525-4ca4-9f7b-07963609718d)
 
-!\[](labs/lab03_ha_postgres/screenshots/screenshots/3.png)
 
 
 
@@ -180,8 +177,7 @@ INSERT INTO test\_replication VALUES (2, 'should fail on replica');
 Запись на мастере выполняется успешно:
 
 
-
-!\[](labs/lab03_ha_postgres/screenshots/screenshots/4.png)
+![4](https://github.com/user-attachments/assets/c6cad0f4-877c-423a-bb23-68ea83eccb03)
 
 
 
@@ -278,8 +274,8 @@ docker compose up -d --build
 http://127.0.0.1:7000
 
 
+![5](https://github.com/user-attachments/assets/d05bbf77-21b1-4eec-bbde-8c93ee03cd7b)
 
-!\[](labs/lab03_ha_postgres/screenshots/screenshots/5.png)
 
 
 
@@ -334,8 +330,7 @@ SELECT \* FROM test\_replication;
 ```
 
 
-
-!\[](labs/lab03_ha_postgres/screenshots/screenshots/6.png)
+![6](https://github.com/user-attachments/assets/a0ceb1b7-de7c-4a10-84ed-a00924ec5a01)
 
 
 
@@ -362,16 +357,16 @@ docker stop pg-slave
 ```
 
 
+![7](https://github.com/user-attachments/assets/49ae4ab5-23ff-4038-92fe-c80a860514b2)
 
-!\[](labs/lab03_ha_postgres/screenshots/screenshots/7.png)
 
 
 
 Обновляем страницу статистики HAProxy.
 
 
+![8](https://github.com/user-attachments/assets/8b0d20d9-94b5-41c5-9132-47f2a345859c)
 
-!\[](labs/lab03_ha_postgres/screenshots/screenshots/8.png)
 
 
 
@@ -398,8 +393,8 @@ INSERT INTO test\_replication VALUES (500, 'after failover');
 ```
 
 
+![9](https://github.com/user-attachments/assets/565a722c-af6b-468b-9ae8-1946d667699e)
 
-!\[](labs/lab03_ha_postgres/screenshots/screenshots/9.png)
 
 
 
@@ -420,8 +415,7 @@ SELECT \* FROM test\_replication ORDER BY id;
 ```
 
 
-
-!\[](labs/lab03_ha_postgres/screenshots/screenshots/10.png)
+![10](https://github.com/user-attachments/assets/3335041e-c05c-418e-89b1-666c97fa8577)
 
 
 
@@ -478,6 +472,7 @@ HAProxy обеспечивает единую точку входа.
 
 
 Лабораторная работа выполнена успешно.
+
 
 
 
