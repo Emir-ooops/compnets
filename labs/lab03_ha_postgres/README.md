@@ -111,7 +111,7 @@ docker compose up -d --build
 
 
 
-!\[](labs/lab03_ha_postgres/screenshots/1.png)
+!\[](./screenshots/1.png)
 
 
 
@@ -478,5 +478,6 @@ HAProxy обеспечивает единую точку входа.
 
 
 Лабораторная работа выполнена успешно.
+
 
 
