@@ -109,7 +109,7 @@ docker compose up -d --build
 
 ```
 
-![1](https://github.com/user-attachments/assets/484551f1-3fc2-4193-9713-933d56032e48)
+
 
 
 
@@ -122,11 +122,7 @@ docker compose up -d --build
 docker compose ps
 
 ```
-
-
-![2](https://github.com/user-attachments/assets/94b6b7b0-4329-4760-9bdf-407ce380dfc2)
-
-
+![1](https://github.com/user-attachments/assets/484551f1-3fc2-4193-9713-933d56032e48)
 
 Контейнеры pg-master, pg-slave и zoo успешно запущены.
 
@@ -143,11 +139,11 @@ docker compose ps
 Подключаемся через pgAdmin:
 
 
-
 \- pg-master — localhost:5433  
 
 \- pg-slave — localhost:5434  
 
+![2](https://github.com/user-attachments/assets/94b6b7b0-4329-4760-9bdf-407ce380dfc2)
 
 
 Проверяем роли.
@@ -274,7 +270,10 @@ docker compose up -d --build
 http://127.0.0.1:7000
 
 
-![5](https://github.com/user-attachments/assets/d05bbf77-21b1-4eec-bbde-8c93ee03cd7b)
+
+
+<img width="1869" height="575" alt="11" src="https://github.com/user-attachments/assets/848dfdd5-6933-4f7f-af7b-57c9b2ef90d6" />
+
 
 
 
@@ -472,6 +471,7 @@ HAProxy обеспечивает единую точку входа.
 
 
 Лабораторная работа выполнена успешно.
+
 
 
 
