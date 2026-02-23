@@ -127,7 +127,7 @@ docker compose ps
 
 
 
-!\[](labs/lab03_ha_postgres/screenshots/screenshots/2.png)
+!\[](./labs/lab03_ha_postgres/screenshots/screenshots/2.png)
 
 
 
@@ -478,6 +478,7 @@ HAProxy обеспечивает единую точку входа.
 
 
 Лабораторная работа выполнена успешно.
+
 
 
 
