@@ -328,8 +328,7 @@ SELECT \* FROM test\_replication;
 
 ```
 
-
-![6](https://github.com/user-attachments/assets/a0ceb1b7-de7c-4a10-84ed-a00924ec5a01)
+<img width="746" height="410" alt="12" src="https://github.com/user-attachments/assets/1553ef56-0bfe-477f-93d7-e0181cdc8547" />
 
 
 
@@ -471,6 +470,7 @@ HAProxy обеспечивает единую точку входа.
 
 
 Лабораторная работа выполнена успешно.
+
 
 
 
