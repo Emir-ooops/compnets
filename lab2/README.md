@@ -240,10 +240,9 @@ http://zabbix-front:8080/api_jsonrpc.php
 
 ### Визуализация
 
-Создаем Dashboard в Grafana и добавляем панели:
+Создаем Dashboard в Grafana:
 
 - статус health-check из Zabbix  
-- логи из Loki
 
 <img width="1470" height="920" alt="14" src="https://github.com/user-attachments/assets/7aad5334-0d1d-4f13-af44-194c1502fe26" />
 
@@ -262,3 +261,4 @@ http://zabbix-front:8080/api_jsonrpc.php
 - Выполнена визуализация  
 
 Система мониторинга и логирования функционирует корректно.
+
