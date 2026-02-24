@@ -1,0 +1,6 @@
+---
+domain_name: localhost
+
+log:
+  file: /var/log/caddy_access.log
+  level: INFO
